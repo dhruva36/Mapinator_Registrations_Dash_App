@@ -1,0 +1,1 @@
+# Mapinator_Registrations_Dash_App
