@@ -545,5 +545,8 @@ def update_graph(selected_date_field, selected_years, selected_degree_types,
     
     return combined_fig
 
+server = app.server
+
 if __name__ == '__main__':
-    app.run(debug=True)
+
+    app.run(debug=False, host='0.0.0.0', port=8050)
